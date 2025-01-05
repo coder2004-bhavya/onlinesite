@@ -1,0 +1,54 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.alpha-container {
+    background: linear-gradient(300deg, rgb(43, 0, 255), #4cffea, #72ef9c);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes alpha-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.beta-background {
+    background: linear-gradient(300deg, #00ff04, #ffed4c, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes beta-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.details{
+    background-color: #ef8172;
+    align-content: center;
+}
